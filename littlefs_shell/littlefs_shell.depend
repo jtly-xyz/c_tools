@@ -1,0 +1,212 @@
+# depslib dependency file v1.0
+1600867592 source:d:\c\littlefs_shell\cmd\help.c
+	"../com.h"
+
+1600911549 d:\c\littlefs_shell\com.h
+
+1600881042 source:d:\c\littlefs_shell\cmd\cd.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1601000681 source:d:\c\littlefs_shell\cmd\cp.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600867606 source:d:\c\littlefs_shell\cmd\exit.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../flash.h"
+
+1600867612 source:d:\c\littlefs_shell\cmd\mv.c
+	"../com.h"
+
+1600911783 source:d:\c\littlefs_shell\cmd\ls.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600881498 source:d:\c\littlefs_shell\cmd\rm.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1601001194 source:d:\c\littlefs_shell\flash.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"flash.h"
+	<io.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+	"tchar.h"
+
+1600911544 source:d:\c\littlefs_shell\com.c
+	<stdio.h>
+	<stdlib.h>
+	"com.h"
+
+1601001648 source:d:\c\littlefs_shell\main.c
+	<stdio.h>
+	<stdlib.h>
+	"com.h"
+	"littlefs/lfs.h"
+	"flash.h"
+
+1586428966 source:d:\c\littlefs_shell\littlefs\lfs.c
+	"lfs.h"
+	"lfs_util.h"
+
+1586428966 d:\c\littlefs_shell\littlefs\lfs.h
+	<stdint.h>
+	<stdbool.h>
+
+1586428966 d:\c\littlefs_shell\littlefs\lfs_util.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<inttypes.h>
+	<stdlib.h>
+	<assert.h>
+	<stdio.h>
+
+1586428966 source:d:\c\littlefs_shell\littlefs\lfs_util.c
+	"lfs_util.h"
+
+1600844540 source:d:\c\littlefs_shell\littlefs\bd\lfs_filebd.c
+	"lfs_filebd.h"
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+
+1600844556 d:\c\littlefs_shell\littlefs\bd\lfs_filebd.h
+	"../lfs.h"
+	"../lfs_util.h"
+
+1600844560 source:d:\c\littlefs_shell\littlefs\bd\lfs_rambd.c
+	"lfs_rambd.h"
+
+1600844578 d:\c\littlefs_shell\littlefs\bd\lfs_rambd.h
+	"../lfs.h"
+	"../lfs_util.h"
+
+1600844563 source:d:\c\littlefs_shell\littlefs\bd\lfs_testbd.c
+	"lfs_testbd.h"
+	<stdlib.h>
+
+1600844573 d:\c\littlefs_shell\littlefs\bd\lfs_testbd.h
+	"../lfs.h"
+	"../lfs_util.h"
+	"lfs_rambd.h"
+	"lfs_filebd.h"
+
+1601000821 d:\c\littlefs_shell\flash.h
+	"littlefs/lfs.h"
+
+1600911535 source:d:\c\littlefs_shell\cmd\mkdir.c
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600881040 source:d:\program_all\codeblocks\littlefs_shell\cmd\cd.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600881484 d:\program_all\codeblocks\littlefs_shell\com.h
+
+1600871943 source:d:\program_all\codeblocks\littlefs_shell\cmd\cp.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600867605 source:d:\program_all\codeblocks\littlefs_shell\cmd\exit.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../flash.h"
+
+1600873211 d:\program_all\codeblocks\littlefs_shell\flash.h
+	"littlefs/lfs.h"
+
+1586428966 d:\program_all\codeblocks\littlefs_shell\littlefs\lfs.h
+	<stdint.h>
+	<stdbool.h>
+
+1600867590 source:d:\program_all\codeblocks\littlefs_shell\cmd\help.c
+	"../com.h"
+
+1600879387 source:d:\program_all\codeblocks\littlefs_shell\cmd\ls.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600881683 source:d:\program_all\codeblocks\littlefs_shell\cmd\mkdir.c
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600867610 source:d:\program_all\codeblocks\littlefs_shell\cmd\mv.c
+	"../com.h"
+
+1600881496 source:d:\program_all\codeblocks\littlefs_shell\cmd\rm.c
+	<stdio.h>
+	<stdlib.h>
+	"../com.h"
+	"../littlefs/lfs.h"
+	"../flash.h"
+
+1600881475 source:d:\program_all\codeblocks\littlefs_shell\com.c
+	<stdio.h>
+	<stdlib.h>
+	"com.h"
+
+1600873910 source:d:\program_all\codeblocks\littlefs_shell\flash.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"flash.h"
+	<io.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+	"tchar.h"
+
+1586428966 source:d:\program_all\codeblocks\littlefs_shell\littlefs\lfs.c
+	"lfs.h"
+	"lfs_util.h"
+
+1586428966 d:\program_all\codeblocks\littlefs_shell\littlefs\lfs_util.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	<inttypes.h>
+	<stdlib.h>
+	<assert.h>
+	<stdio.h>
+
+1586428966 source:d:\program_all\codeblocks\littlefs_shell\littlefs\lfs_util.c
+	"lfs_util.h"
+
+1600878187 source:d:\program_all\codeblocks\littlefs_shell\main.c
+	<stdio.h>
+	<stdlib.h>
+	"com.h"
+

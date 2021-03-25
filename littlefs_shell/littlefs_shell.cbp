@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="littlefs_shell" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/littlefs_shell" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/littlefs_shell" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cmd/cd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/cp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/exit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/help.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/ls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/mkdir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/mv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmd/rm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="com.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="com.h" />
+		<Unit filename="flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="flash.h" />
+		<Unit filename="littlefs/bd/lfs_filebd.h" />
+		<Unit filename="littlefs/bd/lfs_rambd.h" />
+		<Unit filename="littlefs/bd/lfs_testbd.h" />
+		<Unit filename="littlefs/lfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="littlefs/lfs.h" />
+		<Unit filename="littlefs/lfs_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="littlefs/lfs_util.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
